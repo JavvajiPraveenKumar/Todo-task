@@ -141,13 +141,11 @@ If you'd like to contribute to this project, please fork the repository, create 
 
 ### **Explanation of the Structure:**
 
-- **Installation**: Provides step-by-step instructions on how to set up the project locally.
-- **Technologies Used**: Lists the technologies and libraries used to build the API.
-- **API Endpoints**: Documents each endpoint, including the method, request body, and possible responses. 
-- **Testing the API with Postman**: Explains how to test the API using Postman.
-- **Error Handling**: Describes the common errors you may encounter and how to handle them.
-- **Contribution**: Invites others to contribute to the project.
-
+- **Models**: defining the schema for the user detalis and todo task.
+- **Controllers**: writing the logic for the todo operations .
+- **Routers**: defining the endpoints for the those controlllers. 
+- **Index js**: connection of mongodb and defining end points.
+-
 
 
 
